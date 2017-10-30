@@ -1,0 +1,1 @@
+exports = imports('./img-loader');

@@ -1,0 +1,8 @@
+<div>
+	<img src="{{img}}" *if = "showUserImg"/>
+	<p><span>姓名:</span>{{data.name}}</p>
+	<p [hidden] = "hiddenAge"><span>年龄:</span>{{data.showAge}}</p>
+	
+	<button [hidden] = "hideBtn" (click) = "showAge()">查看我的年龄和头像</button>
+	
+</div>

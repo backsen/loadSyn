@@ -1,0 +1,10 @@
+p:hover{
+	color: red;
+	cursor: pointer;
+}
+p:hover span{
+	color: green;
+}
+p span{
+	margin-right: 10px;
+}
